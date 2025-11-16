@@ -29,15 +29,39 @@ url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site
 github_username:  Tec-Wang
 
 # Build settings
-theme: jekyll-theme-cayman
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
-# 个人资料配置（用于显示头像和简介）
-# 将你的头像图片放到 assets/images/avatar.jpg 或 avatar.png
-avatar: /assets/images/avatar.jpg  # 头像路径（可选）
-# author: Your Name  # 作者名称
-# description: 个人简介  # 已在上面设置
+# Minimal Mistakes 主题配置
+# 作者信息
+author:
+  name: "Tec-Wang"
+  avatar: /assets/images/avatar.jpg  # 头像路径（将图片放到 assets/images/avatar.jpg）
+  bio: "一只热爱编程的🐟，喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。"
+  location: "China"
+  email: "wangzheng4j@qq.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Tec-Wang"
+    # 可以添加更多链接，如微博、Twitter等
+
+# 主题设置
+minimal_mistakes_skin: "default"  # 可选: default, air, dark, dirt, mint, neon, aqua, contrast, forest, ocean
+
+# 导航菜单
+navigation:
+  main:
+    - title: "主页"
+      url: /
+    - title: "关于"
+      url: /about/
+    - title: "分类"
+      url: /categories/
+    - title: "标签"
+      url: /tags/
 
 # 常用文章分类（在文章 front matter 中使用 categories 字段）
 # 示例：categories: 技术 教程
