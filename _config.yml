@@ -18,21 +18,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: 北冥有鱼，其名为鲲。
+email: wangzheng4j@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  一只热爱编程的🐟，喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。
+  喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。
+baseurl: "/Tec-Wang.github.io" # the subpath of your site, e.g. /blog
+url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  Tec-Wang
 
 # Build settings
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+
+# 常用文章分类（在文章 front matter 中使用 categories 字段）
+# 示例：categories: 技术 教程
+# 可用分类：
+# - 技术：技术相关文章
+# - 教程：教程类文章
+# - 笔记：学习笔记
+# - 随笔：日常随笔
+# - 项目：项目相关
+# - 工具：工具推荐和使用
+# - 前端：前端技术
+# - 后端：后端技术
+# - 算法：算法相关
+# - 生活：生活相关
 
 # Exclude from processing.
 # The following items will not be processed, by default.
