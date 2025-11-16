@@ -29,9 +29,15 @@ url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site
 github_username:  Tec-Wang
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+
+# 个人资料配置（用于显示头像和简介）
+# 将你的头像图片放到 assets/images/avatar.jpg 或 avatar.png
+avatar: /assets/images/avatar.jpg  # 头像路径（可选）
+# author: Your Name  # 作者名称
+# description: 个人简介  # 已在上面设置
 
 # 常用文章分类（在文章 front matter 中使用 categories 字段）
 # 示例：categories: 技术 教程

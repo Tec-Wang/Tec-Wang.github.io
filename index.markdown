@@ -3,13 +3,17 @@ layout: default
 title: Home
 ---
 
-# Welcome
+{% if site.avatar %}
+![头像]({{ site.avatar }}){: .avatar}
+{% endif %}
 
-欢迎来到我的网站！
+# {{ site.title }}
 
-这里是个人博客和项目展示站点。
+{{ site.description }}
 
-## 文章分类
+---
+
+## 📚 文章分类
 
 {% assign categories_list = site.categories | sort %}
 {% for category in categories_list %}
