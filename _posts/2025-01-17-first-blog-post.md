@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: single
 title: "我的第一篇博客文章"
 date: 2025-01-17 14:30:00 +0800
 categories: 随笔 生活
 tags: [博客, 随笔, 开始]
 excerpt: "这是我在新博客上的第一篇文章，记录一下建站的过程和心情。"
+author_profile: true
 ---
 
 大家好！欢迎来到我的博客！

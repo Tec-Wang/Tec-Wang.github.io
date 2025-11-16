@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: single
 title: "Minimal Mistakes 主题完整使用指南"
 date: 2025-01-16 10:00:00 +0800
 categories: 技术 教程
 tags: [Jekyll, Minimal Mistakes, 博客, 教程]
 author: Tec-Wang
+author_profile: true
 ---
 
 这是一篇技术教程文章，展示如何使用 Minimal Mistakes 主题以及文章中如何插入代码、图片等内容。

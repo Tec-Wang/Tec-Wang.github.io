@@ -34,6 +34,27 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# 默认值配置
+defaults:
+  # _posts 文件的默认值
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # 页面的默认值
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
 # Minimal Mistakes 主题配置
 # 作者信息
 author:
@@ -56,12 +77,14 @@ navigation:
   main:
     - title: "主页"
       url: /
-    - title: "关于"
-      url: /about/
+    - title: "归档"
+      url: /posts/
     - title: "分类"
       url: /categories/
     - title: "标签"
       url: /tags/
+    - title: "关于"
+      url: /about/
 
 # 常用文章分类（在文章 front matter 中使用 categories 字段）
 # 示例：categories: 技术 教程
