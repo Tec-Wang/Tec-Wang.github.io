@@ -78,18 +78,20 @@ author:
 minimal_mistakes_skin: "default"  # 可选: default, air, dark, dirt, mint, neon, aqua, contrast, forest, ocean
 
 # 导航菜单
-navigation:
-  main:
-    - title: "主页"
-      url: /
-    - title: "归档"
-      url: /posts/
-    - title: "分类"
-      url: /categories/
-    - title: "标签"
-      url: /tags/
-    - title: "关于"
-      url: /about/
+# 注意：Minimal Mistakes 主题优先使用 _data/navigation.yml 文件
+# 导航菜单配置已移至 _data/navigation.yml
+# navigation:
+#   main:
+#     - title: "主页"
+#       url: /
+#     - title: "归档"
+#       url: /posts/
+#     - title: "分类"
+#       url: /categories/
+#     - title: "标签"
+#       url: /tags/
+#     - title: "关于"
+#       url: /about/
 
 # 常用文章分类（在文章 front matter 中使用 categories 字段）
 # 示例：categories: 技术 教程
