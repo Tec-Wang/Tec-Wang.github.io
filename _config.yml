@@ -23,8 +23,8 @@ email: wangzheng4j@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   一只热爱编程的🐟，喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。
   喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。
-baseurl: "/Tec-Wang.github.io" # the subpath of your site, e.g. /blog
-url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog (留空表示根目录)
+url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  Tec-Wang
 
