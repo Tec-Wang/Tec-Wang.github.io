@@ -19,12 +19,16 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 北冥有鱼，其名为鲲。
+tagline: "一只热爱编程的🐟"  # 网站副标题（显示在标题下方）
 email: wangzheng4j@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   一只热爱编程的🐟，喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。
   喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。
 baseurl: "" # the subpath of your site, e.g. /blog (留空表示根目录)
 url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site
+
+# 网站 Logo（可选，如果需要的话）
+# logo: /assets/images/logo.png
 # twitter_username: jekyllrb
 github_username:  Tec-Wang
 
@@ -45,7 +49,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: false
-      share: true
+      share: false  # 关闭社交分享按钮
       related: true
   # 页面的默认值
   - scope:
