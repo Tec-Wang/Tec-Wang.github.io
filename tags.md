@@ -3,6 +3,7 @@ title: "标签"
 layout: tags
 permalink: /tags/
 author_profile: false
+author_profile: true
 ---
 <!-- 
 这是标签归档页面，显示所有文章的标签分类。
