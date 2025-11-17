@@ -9,6 +9,7 @@ tags:
   - 博客
   - 教程
 author_profile: true
+sidebar: docs
 ---
 
 这是一篇技术教程文章，展示如何使用 Minimal Mistakes 主题以及文章中如何插入代码、图片等内容。
