@@ -28,6 +28,14 @@ baseurl: "" # the subpath of your site, e.g. /blog (留空表示根目录)
 url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site
 breadcrumbs: true
 permalink: /:categories/:title/
+search: true
+search_full_content: true
+search_provider: lunr
+
+# Lunr 搜索相关配置（可按需调整）
+lunr:
+  search_within_pages: true
+  min_length: 2
 
 # 网站 Logo（可选，如果需要的话）
 # logo: /assets/images/logo.png

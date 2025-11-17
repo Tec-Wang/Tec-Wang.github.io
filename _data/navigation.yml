@@ -5,6 +5,8 @@ main:
     url: /technology-share/
   - title: "标签"
     url: /tags/
+  - title: "搜索"
+    url: /search/
   - title: "关于我"
     url: /about-me/
 
