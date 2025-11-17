@@ -1,6 +1,6 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "技术"
+    url: /_data/navigations/技术
   # - title: "Posts"
   #   url: /year-archive/
   # - title: "Categories"
