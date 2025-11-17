@@ -26,6 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   喜欢研究各种技术，喜欢分享自己的学习心得，喜欢帮助别人，喜欢写作。
 baseurl: "" # the subpath of your site, e.g. /blog (留空表示根目录)
 url: "https://Tec-Wang.github.io" # the base hostname & protocol for your site
+breadcrumbs: true
+permalink: /:categories/:title/
 
 # 网站 Logo（可选，如果需要的话）
 # logo: /assets/images/logo.png
@@ -75,37 +77,7 @@ author:
     # 可以添加更多链接，如微博、Twitter等
 
 # 主题设置
-minimal_mistakes_skin: "default"  # 可选: default, air, dark, dirt, mint, neon, aqua, contrast, forest, ocean
-
-# 导航菜单
-# 注意：Minimal Mistakes 主题优先使用 _data/navigation.yml 文件
-# 导航菜单配置已移至 _data/navigation.yml
-# navigation:
-#   main:
-#     - title: "主页"
-#       url: /
-#     - title: "归档"
-#       url: /posts/
-#     - title: "分类"
-#       url: /categories/
-#     - title: "标签"
-#       url: /tags/
-#     - title: "关于"
-#       url: /about/
-
-# 常用文章分类（在文章 front matter 中使用 categories 字段）
-# 示例：categories: 技术 教程
-# 可用分类：
-# - 技术：技术相关文章
-# - 教程：教程类文章
-# - 笔记：学习笔记
-# - 随笔：日常随笔
-# - 项目：项目相关
-# - 工具：工具推荐和使用
-# - 前端：前端技术
-# - 后端：后端技术
-# - 算法：算法相关
-# - 生活：生活相关
+minimal_mistakes_skin: "mint"  # 可选: default, air, dark, dirt, mint, neon, aqua, contrast, forest, ocean
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -115,14 +87,18 @@ minimal_mistakes_skin: "default"  # 可选: default, air, dark, dirt, mint, neon
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .obsidian/
+
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/ 官网
+

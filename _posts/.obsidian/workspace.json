@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-01-17-first-blog-post.md",
+                "file": "2025-01-16-jekyll-minimal-mistakes-theme-guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-17-first-blog-post"
+              "title": "2025-01-16-jekyll-minimal-mistakes-theme-guide"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-01-17-first-blog-post.md",
+                "file": "2025-01-16-jekyll-minimal-mistakes-theme-guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-01-17-first-blog-post 的反向链接列表"
+              "title": "2025-01-16-jekyll-minimal-mistakes-theme-guide 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-01-17-first-blog-post.md",
+                "file": "2025-01-16-jekyll-minimal-mistakes-theme-guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-01-17-first-blog-post 的出链列表"
+              "title": "2025-01-16-jekyll-minimal-mistakes-theme-guide 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-01-17-first-blog-post.md",
+                "file": "2025-01-16-jekyll-minimal-mistakes-theme-guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-01-17-first-blog-post 的大纲"
+              "title": "2025-01-16-jekyll-minimal-mistakes-theme-guide 的大纲"
             }
           }
         ]
@@ -185,11 +185,11 @@
   },
   "active": "e488d132d64d088f",
   "lastOpenFiles": [
+    "2025-01-17-first-blog-post.md",
     "kafka/2025-11-17-kafka.md",
     "kafka/2024-08-05-welcome-to-jekyll.markdown",
     "kafka",
     "2025-01-16-jekyll-minimal-mistakes-theme-guide.md",
-    "2025-11-16-test.md",
-    "2025-01-17-first-blog-post.md"
+    "2025-11-16-test.md"
   ]
 }
