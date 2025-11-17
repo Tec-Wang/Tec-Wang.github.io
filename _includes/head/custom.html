@@ -1,0 +1,18 @@
+{%- comment -%}
+  自定义站点 <head> 区域内容。
+  这里为整个站点添加 favicon（浏览器标签页小图标）。
+{%- endcomment -%}
+
+<!-- 使用头像作为临时 favicon，如需单独图标，可将文件替换为自己的图标路径 -->
+<link
+  rel="icon"
+  href="{{ '/assets/images/avatar.jpg' | relative_url }}"
+  type="image/jpeg"
+/>
+<link
+  rel="shortcut icon"
+  href="{{ '/assets/images/avatar.jpg' | relative_url }}"
+  type="image/jpeg"
+/>
+
+
