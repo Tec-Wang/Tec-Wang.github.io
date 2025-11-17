@@ -74,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,7 +184,7 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "e488d132d64d088f",
+  "active": "73ff3c0bcdf13d34",
   "lastOpenFiles": [
     "2025-01-17-first-blog-post.md",
     "kafka/2025-11-17-kafka.md",

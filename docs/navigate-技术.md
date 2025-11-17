@@ -1,8 +1,6 @@
 ---
 title: "技术"
 layout: category   # 用分类聚合页布局
-permalink: /technology-share
+permalink: /technology-share/
 taxonomy: 技术
 ---
-
-这里会显示所有 **技术** 分类下的文章。
