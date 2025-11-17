@@ -13,7 +13,6 @@ sidebar: docs
 ---
 
 这是一篇技术教程文章，展示如何使用 Minimal Mistakes 主题以及文章中如何插入代码、图片等内容。
-
 ## 📋 文章 Front Matter 配置
 
 每篇文章开头都需要 Front Matter（YAML 格式），常用配置如下：
