@@ -1,25 +1,83 @@
 ---
 permalink: /404.html
-layout: default
+layout: single
+title: "这页迷路啦 (404)"
+excerpt: "你要找的内容不在这里，但别担心，我们帮你回到正轨。"
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
+<style>
+  .page-404 {
+    margin: 4rem auto;
+    max-width: 700px;
     text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(129, 140, 248, 0.12));
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.15);
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+
+  .page-404__code {
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+  }
+
+  .page-404__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .page-404__subtitle {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+  }
+
+  .page-404__tip {
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    color: #94a3b8;
+  }
+
+  .page-404__emoji {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 640px) {
+    .page-404 {
+      margin: 2.5rem 1rem;
+      padding: 2.25rem 1.5rem;
+    }
+
+    .page-404__code {
+      font-size: 3.2rem;
+    }
+
+    .page-404__title {
+      font-size: 1.5rem;
+    }
   }
 </style>
 
-<div class="container">
-  <h1>404</h1>
+<div class="page-404">
+  <div class="page-404__emoji">🧭</div>
+  <div class="page-404__code">404</div>
+  <p class="page-404__title">这页好像迷路了</p>
+  <p class="page-404__subtitle">
+    可能链接过期了，或者地址敲错了一点点。<br />
+    不如回到首页，重新开始逛逛吧。
+  </p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p>
+    <a class="btn btn--primary" href="{{ '/' | relative_url }}">回到首页</a>
+  </p>
+
+  <p class="page-404__tip">
+    你也可以使用顶部导航，去看看「技术」、「教程」或者「关于我」。
+  </p>
 </div>
