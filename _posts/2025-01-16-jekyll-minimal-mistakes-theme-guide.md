@@ -1,9 +1,13 @@
 ---
 layout: single
-title: "Minimal Mistakes 主题完整使用指南"
+title: Minimal Mistakes 主题完整使用指南
 date: 2025-01-16 10:00:00 +0800
 categories: 技术 教程
-tags: [Jekyll, Minimal Mistakes, 博客, 教程]
+tags:
+  - Jekyll
+  - MinimalMistakes
+  - 博客
+  - 教程
 author_profile: true
 ---
 
